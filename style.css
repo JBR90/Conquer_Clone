@@ -208,6 +208,7 @@ body {
 }
 
 .card__title {
+  font-size: 25px;
   text-align: center;
 }
 
@@ -336,6 +337,7 @@ body {
   width: 100%;
   display: flex;
   flex-direction: row;
+
   /* border: solid black; */
 }
 
@@ -344,21 +346,22 @@ body {
   text-indent: 20px;
   font-size: 20px;
   /* padding: 10px; */
-  width: 100%;
+  width: 90%;
   /* margin-bottom: 20px; */
   color: black;
   background-color: white;
   opacity: 0.5;
   border-radius: 8px;
+  margin-bottom: 10px;
 }
 
 .form__input__large {
-  height: 100%;
+  height: 90%;
   text-indent: 20px;
   font-size: 20px;
   /* padding: 10px; */
   width: 100%;
-  /* margin-bottom: 20px; */
+  margin-bottom: 20px;
   color: black;
   background-color: white;
   opacity: 0.5;
@@ -367,7 +370,8 @@ body {
 .form__btn {
   width: 60px;
   padding: 5px;
-  border-radius: 10px;
+  border-radius: 5px;
+  align-self: flex-end;
 }
 
 #fixedbutton {
@@ -382,6 +386,25 @@ body {
 
 .hide__fixed__button {
   opacity: 0;
+}
+
+.footer__text__container {
+  border: solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.link {
+  padding: 10px;
+}
+
+.form__btn {
+  background-color: black;
+  border: white;
+  color: white;
 }
 
 /* .four--col {
@@ -405,45 +428,7 @@ body {
   /* CSS */
 }
 
-/* 
-  ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
-*/
-
-@media (min-width: 1025px) and (max-width: 1280px) {
-  /* CSS */
-}
-
-/* 
-  ##Device = Tablets, Ipads (portrait)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) {
-  /* CSS */
-  /* body {
-    background-color: tomato;
-  }
-  .hamburger {
-    display: inline;
-  } */
-}
-
-/* 
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  /* CSS */
-}
-
-/* 
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
-*/
-
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media (max-width: 767px) {
   /* CSS */
   .hamburger {
     opacity: 1;
@@ -477,6 +462,10 @@ body {
     width: 70%;
   }
 
+  .card__text {
+    font-size: 10px;
+  }
+
   .services_one_col {
     width: 200%;
   }
@@ -489,18 +478,20 @@ body {
     flex-direction: column;
   }
 
+  .form__input {
+    width: 100%;
+  }
+  .form__input__large {
+    height: 80px;
+  }
+
   input:nth-of-type(4n) {
     height: 50px;
   }
-}
 
-/* 
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 320px to 479px
-*/
-
-@media (min-width: 320px) and (max-width: 480px) {
-  /* CSS */
+  .card__title {
+    font-size: 20px;
+  }
 }
 
 .hide__navbar {
