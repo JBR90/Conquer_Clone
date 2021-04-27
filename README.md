@@ -4,6 +4,10 @@ A clone of ['Conquer Template](https://www.free-css.com/free-css-templates/page1
 
 Hosted verison - https://jbr90.github.io/Conquer_Clone/
 
+### Purpose
+
+Solo project to prepare for 'Tier 1 - HTML - Basic Javascript - Basic Algorithms' Chingu voyage
+
 ### Requirements
 
 *Structure*
