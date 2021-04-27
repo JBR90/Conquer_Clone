@@ -2,6 +2,8 @@
 
 A clone of ['Conquer Template](https://www.free-css.com/free-css-templates/page196/conquer "Conquer Template") using HTML/CSS/JS WITHOUT Bootstrap, jQuery, or other libraries.
 
+Hosted verison - https://jbr90.github.io/Conquer_Clone/
+
 ### Requirements
 
 *Structure*
