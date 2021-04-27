@@ -1,8 +1,17 @@
 const navButton = document.getElementsByClassName("nav-button");
 const navBar = document.getElementsByClassName("navbar");
+const navBarLink = document.getElementsByClassName("nav_l");
+
 const toggleNav = () => {
   navBar[0].classList.toggle("hide__navbar");
 };
+
+console.log(navBarLink);
+
+Array.from(navBarLink).forEach((element) => {
+  console.log(element);
+  element.addEventListener("click", toggleNav);
+});
 
 navButton[0].addEventListener("click", toggleNav);
 
